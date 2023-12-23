@@ -1,11 +1,17 @@
-import { Button } from '@/components/ui/button'
+import { Footer } from "./_components/footer"
+import { Heading } from "./_components/heading"
+import { Hero } from "./_components/hero"
 
-export default function Home() {
+const Home = () => {
   return (
-      <div className='m-10'>
-        <Button variant="outline" className='p-4 b-4 shadow-md hover:shadow-xl'>
-          Hello
-        </Button>
+      <div className="min-h-full flex flex-col">
+        <div className="flex flex-col items-center justify-center md:justify-start text-center gap-y-8 flex-1 px-6 pb-10">
+          <Heading />
+          <Hero />
+          <Footer />
+        </div>
       </div>
   )
 }
+
+export default Home
