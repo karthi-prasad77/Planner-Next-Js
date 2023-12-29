@@ -25,7 +25,7 @@ import {
 import { useSearch } from "@/hooks/use-search";
 import { useSettings } from "@/hooks/use-settings";
 
-import { UserItem } from "./user-item";
+import { UserItem } from "./user-items";
 import { Item } from "./item";
 import { DocumentList } from "./document-list";
 import { TrashBox } from "./trash-box";
