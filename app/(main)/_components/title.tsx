@@ -6,7 +6,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { api } from "@/convex/_generated/api";
 import { Doc } from "@/convex/_generated/dataModel";
 import { useMutation } from "convex/react";
-import Document from "next/document";
 import { useRef, useState } from "react";
 
 interface TitleProps {
